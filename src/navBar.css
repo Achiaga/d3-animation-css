@@ -1,0 +1,17 @@
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border: 2px solid black;
+	padding: 10px;
+}
+
+.item {
+	border: 1px solid blue;
+	padding: 10px;
+}
+
+.item:hover {
+	background-color: aquamarine;
+	cursor: pointer;
+}

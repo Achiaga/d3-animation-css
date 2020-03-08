@@ -1,6 +1,10 @@
 import React from 'react';
 import Navbar from './navBar';
 import Demo from './Demo';
+import Triangle from './Triangle';
+import Donut from './Donut';
+import D3 from './D3';
+import { Spring } from 'react-spring/renderprops';
 import { useSpring, animated } from 'react-spring';
 import './App.css';
 
@@ -24,7 +28,9 @@ export default function App() {
 				<span className='last'>happen!</span>
 			</div>
 			<div id='type'>The brown fox jumped the lazy dog.</div>
-			<animated.h1 style={props}>hello</animated.h1>
+			<Donut />
+			<Triangle />
+			<D3 />
 			<Demo />
 		</div>
 	);

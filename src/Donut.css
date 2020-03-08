@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap);
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f5f6f7;
+}
+
+.chart-text {
+	fill: #16191b;
+	font-family: 'IBM Plex Sans', sans-serif;
+	transform: translateY(0.1em);
+}
+
+.chart-number {
+	font-size: 0.45em;
+	text-anchor: middle;
+	font-weight: 700;
+}
+
+.line-chart-text {
+	font-size: 0.11em;
+}
+
+.line-chart-number {
+	font-size: 3em;
+	font-weight: 700;
+}
+
+.chart-label {
+	font-size: 0.13em;
+	text-anchor: middle;
+	font-weight: 700;
+}
+
+.chart-max {
+	font-size: 0.11em;
+	text-anchor: middle;
+	font-family: 'IBM Plex Sans', sans-serif;
+}

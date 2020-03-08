@@ -41,7 +41,7 @@
 }
 
 .slidingVertical span {
-	animation: topToBottom 12.5s linear infinite 0s;
+	animation: topToBottom 10s linear infinite 0s;
 	animation-delay: 0;
 	color: blue;
 	position: absolute;

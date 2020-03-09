@@ -4,7 +4,6 @@ import Demo from './Demo';
 import Triangle from './Triangle';
 import Donut from './Donut';
 import D3 from './D3';
-import { Spring } from 'react-spring/renderprops';
 import { useSpring, animated } from 'react-spring';
 import './App.css';
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import * as d3 from 'd3';
 import DataCircles from './data-circles';
+import XYAxis from './x-y-axis';
 
 const xMax = data => d3.max(data, d => d[0]);
 const yMax = data => d3.max(data, d => d[1]);
@@ -24,6 +25,7 @@ export default props => {
 	return (
 		<svg width={props.width} height={props.height}>
 			<DataCircles {...props} {...scales} />
+			<XYAxis {...props} {...scales} />
 		</svg>
 	);
 };

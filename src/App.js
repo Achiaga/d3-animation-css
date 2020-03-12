@@ -4,6 +4,7 @@ import Demo from './Demo';
 import Triangle from './Triangle';
 import Donut from './Donut';
 import D3 from './D3';
+import Box from './Box';
 import { useSpring, animated } from 'react-spring';
 import './App.css';
 
@@ -16,6 +17,7 @@ export default function App() {
 		<div className='App'>
 			<Navbar />
 			<h1 className='hello'>Welcome to Root</h1>
+			<Box />
 			<div className='wrapper'>
 				Start editing to see some
 				<div className='slidingVertical'>
